@@ -120,6 +120,30 @@ th, td {
   }
 }
 
+.cta-banner {
+  background: linear-gradient(to right, #00a2ff, #007ac7);
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.cta-button {
+  background: white;
+  color: #007ac7;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+}
+
 /* What We Do */
 .section .vision {
   font-style: italic;
