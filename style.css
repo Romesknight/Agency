@@ -8,14 +8,48 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
-  background: #f9f9f9;
-  color: #333;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
 }
 
 a {
   text-decoration: none;
   color: inherit;
 }
+
+:root {
+  --bg-dark: #0a0a0a;
+  --bg-light: #1a1a1a;
+  --text-light: #f0f0f0;
+  --text-muted: #999;
+  --accent: #00a2ff;
+  --accent-soft: #005f9e;
+  --border-light: #333;
+  --radius: 12px;
+}
+
+.section {
+  background-color: var(--bg-light);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.2);
+  padding: 3rem 1rem;
+  margin: 2rem auto;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.section h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+}
+
 
 /* Navbar */
 .navbar {
