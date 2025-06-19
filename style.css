@@ -121,6 +121,16 @@ th, td {
 }
 
 /* What We Do */
+.section .vision {
+  font-style: italic;
+  font-size: 1.25rem;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .section.dark {
   background-color: #111;
   color: #fff;
